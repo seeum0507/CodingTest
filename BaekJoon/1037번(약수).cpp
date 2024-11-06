@@ -13,4 +13,4 @@ int main() {
     }
     answer = min * max;
     printf("%lld", answer);
-}
+}s
