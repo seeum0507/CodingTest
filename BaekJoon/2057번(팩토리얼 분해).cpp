@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-typedef long long ll;
 
-ll fact[20];
+long long fact[20];
 
 int main() {
     fact[0] = 1;
 
-    for (ll i = 1; i < 20; i++) {
+    for (long long i = 1; i < 20; i++) {
         fact[i] = fact[i - 1] * i;
     }
 
-    ll N;
+    long long N;
     scanf("%lld", &N);
 
     if (N == 0) {
