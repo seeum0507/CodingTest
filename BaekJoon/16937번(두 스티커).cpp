@@ -10,8 +10,6 @@ int main() {
         scanf("%d %d", &stickers[i][0], &stickers[i][1]);
     }
 
-    int maxArea = 0;
-
     for (int i = 0; i < N; i++) {
         for (int j = i + 1; j < N; j++) {
             int r1[2] = { stickers[i][0], stickers[i][1] };
